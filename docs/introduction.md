@@ -3,13 +3,16 @@ title: Introduction
 slug: /
 description:
   QuestDB is a relational column-oriented database designed for real-time
-  analytics on time series data.
+  analytics on time-series data.
 ---
 
-QuestDB is a relational column-oriented database designed for time series and
-event data. It uses SQL with extensions for time series to assist with real-time
-analytics. These pages cover core concepts of QuestDB, including setup steps,
-usage guides, and reference documentation for syntax, APIs and configuration.
+QuestDB is a [time-series database](/glossary/time-series-database/) for high
+throughput ingestion and fast SQL queries with operational simplicity. It
+supports schema-agnostic ingestion using the InfluxDB line protocol, PostgreSQL
+wire protocol, and a REST API for bulk imports and exports.
+
+These pages cover core concepts of QuestDB, including setup steps, usage guides,
+and reference documentation for syntax, APIs, and configuration.
 
 ## Get Started
 
@@ -51,6 +54,8 @@ programming languages through our various network endpoints.
 
 ## Deployment
 
+- [Capacity planning](/docs/deployment/capacity-planning/) for configuring
+  server settings and system resources
 - [AWS Marketplace AMI](/docs/deployment/aws-official-ami/)
 - [Kubernetes](/docs/deployment/kubernetes/)
 - [Google Cloud Platform](/docs/deployment/google-cloud-platform/)
@@ -63,8 +68,6 @@ pages for the following topics:
 
 - [Design for performance](/docs/operations/design-for-performance/) for
   configuring table settings to improve performance
-- [Capacity planning](/docs/operations/capacity-planning/) for configuring
-  server settings and system resources
 - [Data retention](/docs/operations/data-retention/) strategy to delete old data
   and save disk space
 - [Health monitoring](/docs/operations/health-monitoring/) endpoint for
@@ -105,7 +108,7 @@ data, and introduces features and capabilities unique to the system.
   records and partitions within tables
 - [Designated timestamp](/docs/concept/designated-timestamp/) is a core feature
   that enables time-oriented language capabilities and partitioning
-- [SQL extensions](/docs/concept/sql-extensions/) allow performant time series
+- [SQL extensions](/docs/concept/sql-extensions/) allow performant time-series
   analysis with a concise syntax
 - [JIT compiler](/docs/concept/jit-compiler/) to speed up `WHERE` clauses
 - [Partitions](/docs/concept/partitions/) can be used to perform time-based

@@ -13,7 +13,7 @@ exposed via an HTTP endpoint.
 ## Prometheus metrics endpoint
 
 Prometheus is an open-source systems monitoring and alerting toolkit. Prometheus
-collects and stores metrics as time series data, i.e. metrics information is
+collects and stores metrics as time-series data, i.e. metrics information is
 stored with the timestamp at which it was recorded, alongside optional key-value
 pairs called labels.
 
@@ -95,7 +95,7 @@ the HTTP 200 status code.
 ## Avoiding CPU starvation
 
 On systems with
-[8 Cores and less](/docs/operations/capacity-planning/#cpu-cores), contention
+[8 Cores and less](/docs/deployment/capacity-planning/#cpu-cores), contention
 for threads might increase the latency of health check service responses. If you
 are in a situation where a load balancer thinks QuestDB service is dead with
 nothing apparent in QuestDB logs, you may need to configure a dedicated thread

@@ -291,7 +291,11 @@
 
 [[redirects]]
   from = "/blog/2020/11/26/why-timeseries-data/"
-  to = "/blog/time-series-data/"
+  to = "/glossary/time-series-database/"
+
+[[redirects]]
+  from = "/blog/time-series-data/"
+  to = "/glossary/time-series-database/"
 
 [[redirects]]
   from = "/blog/laoding-pandas-dataframes/"
@@ -364,6 +368,10 @@
 [[redirects]]
   from ="/blog/2020/06/15/python-questdb-tutorial/"
   to = "/blog/exploring-financial-tick-data-jupyter-notebook-pandas/"
+
+[[redirects]]
+  from ="/docs/operations/capacity-planning/"
+  to = "/docs/deployment/capacity-planning/"
 
 [[headers]]
   for = "/*"
